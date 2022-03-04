@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon sever/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm18/ecommerce-mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhythm18/ecommerce-mern/issues"
+  },
+  "homepage": "https://github.com/rhythm18/ecommerce-mern#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  }
+}
